@@ -18,7 +18,7 @@ public class KafkaProviderApplication {
 		return new CommandLineRunner() {
             @Override
             public void run(String... args) throws Exception {
-                kafkaTemplate.send("DigitalesWeb-Topic", "Hello World DigitalesWeb, two, Send a new Messaje KAFKA");
+                kafkaTemplate.send("DigitalesWeb-Topic", "Hello World DigitalesWeb, two, Send a new Message KAFKA");
             }
         };
 	}
